@@ -39,7 +39,7 @@ Before you begin, ensure you have installed:
 
 1. Clone the repository
 bash
-git clone https://github.com/yourusername/local-gift-cards.git
+git clone https://github.com/yourusername/e-gift-cards.git
 cd local-gift-cards
 2. Install backend dependencies
 bash
