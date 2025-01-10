@@ -40,63 +40,15 @@ Before you begin, ensure you have installed:
 1. Clone the repository
 bash
 git clone https://github.com/tea-dash/e-gift-cards.git
-cd local-gift-cards
+
 2. Install backend dependencies
-bash
-cd backend
-npm install
+
 3. Install frontend dependencies
-bash
-cd frontend
-npm install
+
 4. Set up your environment variables
-bash
-In backend/.env
-PORT=3001
-DB_USER=postgres
-DB_HOST=localhost
-DB_NAME=local_gift_cards
-DB_PASSWORD=your_password
-DB_PORT=5432
-JWT_SECRET=your_secret_key
+
 5. Set up the database
 bash
-Connect to PostgreSQL
-psql -U postgres
-Create the database
-CREATE DATABASE local_gift_cards;
-Connect to the new database
-\c local_gift_cards
-Run the schema and seed files
-\i backend/src/db/schema.sql
-\i backend/src/db/seed.sql
-\i backend/src/db/seed_gift_cards.sql
-1. Start the backend server
-server
-bash
-cd backend
-npm run dev
-server
-bash
-cd frontend
-npm start
-
-This README provides:
-Clear installation instructions
-Project structure overview
-Available features
-API endpoint documentation
-Contributing guidelines
-License information
-Remember to:
-Replace yourusername with your actual GitHub username
-Add any specific setup instructions for your deployment environment
-Update the contact information
-Add any additional sections specific to your implementation
-Would you like me to modify any section or add more details?
-where do i put this file
-
-
 
 ## API Endpoints
 
